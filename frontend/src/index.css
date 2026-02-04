@@ -1,0 +1,38 @@
+/* Global look */
+body {
+  background-color: #f7f8fa;
+}
+/* Global font */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Wider content container (if you use it) */
+.container-narrow {
+  max-width: 1200px; /* Choose 1200 or 1320 */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Card polish */
+.card-product .ratio {
+  border-bottom: 1px solid #eee;
+}
+
+.card-product {
+  min-height: 220px;
+}
+
+/* White section wrapper */
+.section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.04);
+}
+
+/* Helpers */
+.pointer { cursor: pointer; }
